@@ -1,0 +1,24 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+}
+.menu-wrapper li {
+    margin-right: 3em;
+}
+
+#menu1 span {color: #369;}
+#menu2 span {color: #e40000;}
+
+.sub-menu {
+    position: relative;
+}
+.sub-menu ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
